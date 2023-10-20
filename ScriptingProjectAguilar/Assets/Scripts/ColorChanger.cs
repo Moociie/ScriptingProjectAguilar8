@@ -24,9 +24,10 @@ public class ColorChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B))
         {
             GetComponent<Renderer>().material.color = Color.blue;
+        
         if (Input.GetKeyDown(KeyCode.A))
           
-            GetComponent<Renderer>().material..Color = Color.white;
+            GetComponent<Renderer>().material.color = Color.white;
         }
     }
 }
